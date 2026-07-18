@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+    510	     10	      0	    520	    208	D:\TASKD11NEW\release\TaskD11.elf
