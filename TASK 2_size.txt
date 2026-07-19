@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+    518	      0	      0	    518	    206	D:\TASK-2-  D11NEW\release\TASK 2.elf
