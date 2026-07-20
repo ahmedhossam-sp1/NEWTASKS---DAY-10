@@ -12,16 +12,6 @@
 #define LED_OFF 0
 
 
-#define DDRA_REG *((volatile uint8_t*)0x3A)
-#define DDRB_REG *((volatile uint8_t*)0x37)
-#define DDRC_REG *((volatile uint8_t*)0x34)
-#define DDRD_REG *((volatile uint8_t*)0x31)
-
-#define PORTA_REG *((volatile uint8_t*)0x3B)
-#define PORTB_REG *((volatile uint8_t*)0x38)
-#define PORTC_REG *((volatile uint8_t*)0x35)
-#define PORTD_REG *((volatile uint8_t*)0x32)
-
 void LED_Init(uint8_t GroupName, uint8_t PinNumber)
 {
     switch(GroupName)
