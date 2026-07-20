@@ -1,4 +1,6 @@
 #include <stdint.h>
+#include "ATMEGA32REGMAP.h>
+#include "BITMATH.h"
 #include <util/delay.h>
 
 #define G1 0
