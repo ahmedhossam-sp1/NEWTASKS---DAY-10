@@ -9,17 +9,6 @@
 #define G4 3
 
 
-#define DDRA_REG *((volatile uint8_t*)0x3A)
-#define DDRB_REG *((volatile uint8_t*)0x37)
-#define DDRC_REG *((volatile uint8_t*)0x34)
-#define DDRD_REG *((volatile uint8_t*)0x31)
-
-#define PORTA_REG *((volatile uint8_t*)0x3B)
-#define PORTB_REG *((volatile uint8_t*)0x38)
-#define PORTC_REG *((volatile uint8_t*)0x35)
-#define PORTD_REG *((volatile uint8_t*)0x32)
-
-
 static const uint8_t Segment_Numbers[10] = {
     0x3F, // 0 -> 0b00111111
     0x06, // 1 -> 0b00000110
